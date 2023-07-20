@@ -1,10 +1,102 @@
+.faq-link{
+    display: none !important;
+}
+.catalogtitle{
+    color: #1a2674; /* Change this to your preferred color */
+    font-weight: bold;
+}
+
+.catalogsubtitle{
+    color: #3d3d3d; /* Change this to your preferred color */
+    font-weight: bold;
+}
+
+.hpheading {
+    color: #1a2674; /* Change this to your preferred color */
+    font-weight: bold;
+}
+
+.hpsubheading {
+    color: #3d3d3d; /* Change this to your preferred color */
+    font-weight: bold;
+}
+
+.checkout_img{
+ margin: auto;
+ width: 100px;
+ height: 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 115px;
+}
+
+.checkoutv1_6{
+  width: 100%;
+  height: 832px;
+  background: rgba(238,238,238,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.checkoutv1_7{
+  width: 886px;
+  height: 502px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 64px;
+  left: 204px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.checkoutv1_8{
+  width: 610px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 345px;
+  left: 335px;
+  font-family: arial;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.checkoutv1_9{
+  width: 515px;
+  color: rgba(184,184,184,1);
+  position: absolute;
+  top: 420px;
+  left: 382px;
+  font-family: arial;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.checkoutv1_10 {
+  width: 114px;
+}
 a:focus{
 outline: none;
 }
+.b2b-filters{
+    display: none !important;
+}
+
+.ribbon.ribbon-top-left span {
+    background-color: #1a2674!important;
+}
 
 .btn-primary {
-    background: #083a53;
-    border-color: #083a53;
+    background: #1a2674;
+    border-color: #1a2674;
     color: #fff;
     transition-duration: 150ms;
 }
@@ -83,7 +175,7 @@ background-color: #000;
 
 
 .footer{
-background: #d3d3d1;
+background: #c9c9c9;
 }
 
 div#truste-consent-text {
@@ -186,7 +278,7 @@ body, html {
     font-family: inherit;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    font-weight: 800;
+    font-weight: 600;
 }
 .track-order i {
     color: #083a53 !important;
@@ -195,7 +287,6 @@ body, html {
     color: #B52029 !important;
 }
 .footer {
-    background-color: #083a53;
 }
 .footer p, .footer div, .footer a {
     font-family: Montserrat, sans-serif !important;
@@ -266,14 +357,171 @@ body, html {
 .footer-link:hover {
     color: #ffffff !important;
 }
-.login-container .b2b-form {
-    margin-top: 1.5rem !important;
-    margin-bottom: 0 !important;
+.b2b-products .product-item .view-item .title:hover {
+	color: #1a2674 !important;
+    padding-bottom: 0;
+    text-decoration: underline;
 }
-.login-container .b2b-form .mb-4 {
-    margin-bottom: 0.5rem !important;
+.b2b-products .product-item .view-item .title {
+    font-family: "sina_novamedium", Georgia, "Times New Roman", Times, serif;
+    text-transform: capitalize;
+    max-height: 48px;
+    overflow: hidden;
+    color: #1a2674 !important;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.1em;
+    line-height: 1.3;
+}
+div#top-slider .carousel-caption h1, div#top-slider .carousel-caption h5 {
+    color: #ffffff;
+}
+div#top-slider .carousel-caption h1 {
+    font-family: sina_novamedium, Georgia, Times New Roman, Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 3.5em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+	text-shadow: 0px 0px 5px #3c3c3c;
+}
+div#top-slider .carousel-caption h5 {
+    font-family: sina_novamedium, Georgia, Times New Roman, Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 1.5;
+    width: 50%;
+    margin: 0 auto;
+    text-shadow: 0px 0px 5px #3c3c3c;
+}
+.home-slider .owl-carousel .carousel-caption {
+    position: absolute;
+    background-color: transparent;
+    padding: 0;
+    top: 50%;
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+}
+.slider-container .owl-theme .owl-controls .owl-page span, .owl-theme .owl-controls .owl-page.active span {
+    background: #ffffff !important;
+	margin: 2px 2px !important;
+}
+.slider-container .owl-theme .owl-controls .owl-page {
+    margin: 0 3px !important;
+}
+.slider-container .owl-theme .owl-controls .owl-page {
+    margin: 0 3px !important;
+}
+.slider-container .owl-theme .owl-controls .owl-page.active {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+.owl-theme .owl-controls .owl-page:hover span {
+	background: #ffffff !important;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+@media only screen and (min-width:1550px) and (max-width:2200px){
+	div#top-slider .carousel-caption h5 {
+		width: 45%;
+	}
+	.slider-container .owl-theme .owl-controls .owl-page span, .owl-theme .owl-controls .owl-page.active span {
+		background: #ffffff !important;
+		margin: 3px 3px !important;
+	}
+}
+@media only screen and (min-width:992px) and (max-width:4000px){
+        div#top-slider .carousel-caption h5 {	
+		width:90%;	
+	}	
+	.home-slider .slider .item img {	
+		width: 100%;	
+		height: auto;	
+	}
+	body#Home, body#User, body.SuccessfullOrder {
+		padding-top: 0px !important;
+	}
+	.home-slider .slider .item img {
+		width: 100%;
+		height: auto;
+	}
+	div#top-slider .carousel-caption h1:before {
+		right: 0.5em;
+		width: 70px !important;
+	}
+	div#top-slider .carousel-caption h1:after{
+		left: 0.5em;
+		width: 70px !important;
+	}
+}
+@media only screen and (max-width:991px){
+	div#top-slider .carousel-caption h5 {
+		width:90%;
+	}
+	.home-slider .slider .item img {
+		width: 100%;
+		height: auto;
+	}
+	div#top-slider .carousel-caption h1 {
+		font-size: 18px;
+	}
+	div#top-slider .carousel-caption h5 {
+		font-size: 14px;
+	}
 }
 
+/*FAQ CSS*/
+#charlesbankFaq .panel.panel-default {
+	border: none;
+	border-top: 1px solid #000;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#charlesbankFaq .panel.panel-default .panel-heading {
+	background: transparent;
+	border-color: transparent;
+	position: relative;
+	vertical-align: top;
+	text-decoration: none;
+	color: #222222;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	white-space: nowrap;
+}
+#charlesbankFaq .panel-body {
+	border: none;
+}
+#charlesbankFaq h4.panel-title, #charlesbankFaq h4.panel-title a {
+    font-family: Montserrat, sans-serif;
+    color: #083a53;
+    font-size: 1em;
+    line-height: 1.1em;
+    font-weight: 600;
+    text-align: left;
+    display: block;
+}
+#charlesbankFaq .panel-collapse {
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+#charlesbankFaq .panel-body {
+    border: none;
+    margin-bottom: 8px;
+    font-family: Montserrat, sans-serif;
+    color: #667478;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: 300;
+    text-align: left;
+	padding: 0 20px;
+}
+#charlesbankFaq .panel-body a {
+    color: #667478;
+    text-decoration: underline;
+}
 h2.faq-heading {
     display: block;
     text-align: center;
@@ -293,7 +541,6 @@ h2.faq-heading span {
     text-transform: uppercase;
     border-bottom: 1px solid #000;
 }
-
 #charlesbankFaq h4.panel-title a{
 	padding:20px;
 }
@@ -309,51 +556,33 @@ h2.faq-heading span {
     transform: rotateZ(180deg) !important;
     transform-style: preserve-3d !important;
 }
-
-#charlesbankFaq .panel.panel-default {
-    border: none;
-    border-top: 1px solid #000;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.b2b-products-list .product-img img {
+    height: auto;
+    max-height: 250px;
 }
-#charlesbankFaq .panel.panel-default .panel-heading {
-    background: transparent;
-    border-color: transparent;
-    position: relative;
-    vertical-align: top;
-    text-decoration: none;
-    color: #222222;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
+.b2b-product-view-details .product-images .image-view {
+    text-align: center;
 }
-#charlesbankFaq h4.panel-title, #charlesbankFaq h4.panel-title a {
-    font-family: Montserrat, sans-serif;
-    color: #083a53;
-    font-size: 1em;
-    line-height: 1.1em;
-    font-weight: 600;
-    text-align: left;
-    display: block;
+.slider-container {
+    margin-bottom: 20px;
 }
-#charlesbankFaq .panel-body {
-    border: none;
-    margin-bottom: 8px;
-    font-family: Montserrat, sans-serif;
-    color: #667478;
-    font-size: 1em;
-    line-height: 1.4em;
-    font-weight: 300;
-    text-align: left;
-    padding: 0 20px;
+body#User .home-slider, body.SuccessfullOrder .home-slider {
+    min-height: auto !important;
 }
-#charlesbankFaq .panel-collapse {
-    padding-bottom: 10px;
-    background-color: #fff;
+.b2b-category-list .page-title{
+font-size: 32px;
 }
-
+.login-container .b2b-form {
+    margin-top: 1.5rem !important;
+    margin-bottom: 0 !important;
+}
+.login-container .b2b-form .mb-4 {
+    margin-bottom: 0.5rem !important;
+}
+@media only screen and (min-width: 992px) and (max-width: 4000px){	
+body#Home, body#User, body.SuccessfulOrder {	
+     padding-top: 80px !important;	
+}}
 .b2b-products-list {
     border: none;
 }
